@@ -17,12 +17,12 @@ set_fcopt(FC_ALLOWS_NO_OPTIMIZATION FCOPT_NO_OPTIMIZATION "-O0")
 set_fcopt(FC_ALLOWS_DEBUG_OPTIMIZATION FCOPT_DEBUG_OPTIMIZATION "-Og")
 # set_fcopt(FC_ALLOWS_STD_LEGACY FCOPT_STD_LEGACY "--std=legacy")
 set_fcopt(FC_ALLOWS_WALL FCOPT_WALL "-Wall")
-set_fcopt(FC_ALLOWS_BACKTRACE FCOPT_BACKTRACE "-fbacktrace")
+# set_fcopt(FC_ALLOWS_BACKTRACE FCOPT_BACKTRACE "-fbacktrace")
 set_fcopt(FC_ALLOWS_DEBUG FCOPT_DEBUG "-g")
 set_fcopt(FC_ALLOWS_SAVE FCOPT_SAVE "-fno-automatic")
-set_fcopt(FC_ALLOWS_FCHECKALL FCOPT_FCHECKALL "-fcheck=all")
+# set_fcopt(FC_ALLOWS_FCHECKALL FCOPT_FCHECKALL "-fcheck=all")
 
-set_fcopt(FC_ALLOWS_STD_F2008 FCOPT_STD_F2008 "--std=f2008")
+# set_fcopt(FC_ALLOWS_STD_F2008 FCOPT_STD_F2008 "--std=f2008")
 # set_fcopt(FC_ALLOWS_STD_F2018 FCOPT_STD_F2018 "--std=f2018")
 
 # Code coverage options - experimental
